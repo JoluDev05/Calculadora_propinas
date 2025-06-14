@@ -15,9 +15,6 @@ export default function OrderContents({ order, removeItem  }: OrderContentsProps
         
         <div className="mt-10 space-y-3">
             {
-                order.length === 0 ? 
-                <p className="text-center text-2xl">La orden esta vacia</p> 
-                : (
                     order.map(item => (
                         <div 
                         key={item.id} 
@@ -41,7 +38,7 @@ export default function OrderContents({ order, removeItem  }: OrderContentsProps
 
                         </div>
                     ))
-                )
+                
             }
         </div>
     </div>
