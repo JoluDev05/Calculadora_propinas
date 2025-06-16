@@ -3,62 +3,77 @@ import type { MenuItem} from '../types'
 export const menuItems : MenuItem [] = [
     {
       "id": 1,
-      "name": "Pizza a la Leña Chica",
-      "price": 30
+      "name": "Papa boneless BBQ",
+      "price": 50,
     },
     {
       "id": 2,
-      "name": "Pizza a la Leña Mediana",
+      "name": "Papa boneless Buffalo",
       "price": 50
     },
     {
       "id": 3,
-      "name": "Rebanada de Pay de Limón",
-      "price": 30
+      "name": "Papa boneless Mixtos",
+      "price": 50
     },
     {
       "id": 4,
-      "name": "Rebanada de Pastel de Chocolate",
-      "price": 30
+      "name": "Torta de pierna",
+      "price": 60
     },
     {
       "id": 5,
-      "name": "Jugo de Naranja",
-      "price": 15
+      "name": "Torta de boneless",
+      "price": 60
     },
     {
       "id": 6,
-      "name": "Pizza a la Leña Grande",
-      "price": 70
+      "name": "Sushi boneless",
+      "price": 60
     },
     {
       "id": 7,
-      "name": "Rib Eye 800g",
-      "price": 100
+      "name": "Burritos de papa con machaca",
+      "price": 45
     },
     {
       "id": 8,
-      "name": "Jugo de Naranja",
-      "price": 15
+      "name": "Orden de papas",
+      "price": 40
     },
     {
       "id": 9,
-      "name": "Tequila",
+      "name": "Orden de boneless",
       "price": 40
     },
     {
       "id": 10,
-      "name": "Rebanada de Pay de Queso",
-      "price": 30
+      "name": "Coca-cola 600 ml",
+      "price": 25
     },
     {
       "id": 11,
-      "name": "Café Americano",
-      "price": 20
+      "name": "Limonada natural",
+      "price": 25
     },
     {
       "id": 12,
-      "name": "Café Capuchino",
-      "price": 40
-    }
+      "name": "Limonada mineral",
+      "price": 25
+    },
+    {
+      "id": 13,
+      "name": "Horchata",
+      "price": 25
+    },
+    {
+      "id": 14,
+      "name": "Cebada",
+      "price": 25
+    },
+    {
+      "id": 15,
+      "name": "Jamaica",
+      "price": 25
+    },
 ]

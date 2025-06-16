@@ -10,15 +10,15 @@ function App() {
   const {order, addItem, removeItem, tip, setTip, placeOrder} = useOrder();
   return (
     <>
-      <header className=" bg-teal-400 py-5">
+      <header className=" bg-orange-300 py-5">
         <h1 className="text-center text-4xl font-black">
-          Calculadora de propinas y consumo
+          Tienda tortenio ITH
         </h1>
       </header>
 
       <main className=" max-w-7xl mx-auto py-20 grid md:grid-cols-2">
         <div className="p-5">
-          <h2 className="font-black text-4xl">Menu</h2>
+          <h2 className="text-center font-black text-4xl">Menu</h2>
 
           <div className="mt-10 space-y-3 ">
             {menuItems.map(item => (
@@ -31,7 +31,7 @@ function App() {
           </div>
         </div>
 
-        <div className="border border-dashed border-slate-300 p-5 rounded-lg space-y-10">
+        <div className="border border-solid border-slate-300 p-10 rounded-lg space-y-10">
             {
               order.length  ?(
                 <>
@@ -39,14 +39,10 @@ function App() {
                     order={order}
                     removeItem={removeItem}
                     />
-
                     <TipPercentageForm 
                       setTip={setTip}
                       tip={tip}
-                      
-
                     />
-
                     <OrderTotals
                     order={order}
                     tip={tip}
